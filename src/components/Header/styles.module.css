@@ -1,6 +1,6 @@
 .headerContainer {
-  background: var(--white);
   height: 6.5rem;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +22,19 @@
 }
 
 .headerContainer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerContainer span svg {
+  margin-right: 60px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.module.css.map */
